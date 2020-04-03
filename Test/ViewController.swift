@@ -15,11 +15,13 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         let view = UIView()
-        view.backgroundColor = .white
+        view.backgroundColor = .red
         
         view.addSubview(view)
         
         print("123")
+        
+        print("hello, test")
     }
 
 
